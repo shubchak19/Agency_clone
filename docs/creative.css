@@ -6,6 +6,7 @@ html {
     font-size: 62.5%;
     --gap: 1.4rem;
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 
@@ -226,16 +227,16 @@ p,
     z-index: 2;
     top: 0;
     right: 0;
-    bottom: 0;
     width: 0;
     background-color: #FFFFFF;
     transition: width 0.2s;
+    height: 100vh;
+    min-height: 600px;
 }
 
 .nav-open {
     width: 60vw;
     max-width: 500px;
-    box-shadow: -5px 0 80px 10px rgba(0, 0, 0, 0.2);
 }
 
 .nav-menu {
@@ -288,6 +289,7 @@ p,
     height: calc(100vh - 4.5em);
     overflow: hidden;
     margin-top: -1.4em;
+    min-height: 500px;
 }
 
 .slide-container {
@@ -716,8 +718,10 @@ FOOTER
 
     .navigation {
         width: fit-content;
+        height: fit-content;
         position: static;
         background-color: transparent;
+        min-height: fit-content;
     }
 
     .nav-menu {
