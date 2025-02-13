@@ -1,0 +1,39 @@
+.menu-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  z-index: 3;
+  position: absolute;
+  top: 0.2em;
+  right: 0.2em;
+  background-color: transparent;
+  padding: 1em;
+}
+
+@media screen and (min-width: 800px) {
+  .menu-button {
+    display: none;
+  }
+}
+
+.hamburger {
+  background-color: #333333;
+  width: 24px;
+  height: 4px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  transform-origin: 95%;
+}
+
+.nav-open .hamburger:nth-of-type(1) {
+  transform: rotate(-45deg);
+}
+.nav-open .hamburger:nth-of-type(3) {
+  transform: rotate(45deg);
+}
+.nav-open .hamburger:nth-of-type(2) {
+  width: 0;
+}

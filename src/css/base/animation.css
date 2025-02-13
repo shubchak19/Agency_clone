@@ -1,0 +1,21 @@
+.hide {
+    opacity: 0;
+    transform: translateY(60%);
+}
+
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(60%);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animate{
+    animation: fade-up 1s forwards;
+}

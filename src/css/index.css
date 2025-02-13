@@ -1,0 +1,16 @@
+@import url("./base/base.css");
+@import url("./base/animation.css");
+@import url("./base/utility.css");
+
+@import url("./header/header.css");
+@import url("./header/menu.css");
+@import url("./header/navigation.css");
+
+@import url("./main/carousel.css");
+@import url("./main/aboutus.css");
+@import url("./main/portfolio.css");
+@import url("./main/services.css");
+@import url("./main/testimony.css");
+@import url("./main/form.css");
+
+@import url("./footer/footer.css");

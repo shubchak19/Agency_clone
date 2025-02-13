@@ -1,0 +1,14 @@
+.testimony {
+  text-align: center;
+  padding: 5em 2em 3em 2em;
+}
+
+.quote-container {
+  margin: 3em 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+}
+
+.quote-container figcaption {
+  margin: 0.7em;
+}
